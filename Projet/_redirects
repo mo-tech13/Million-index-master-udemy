@@ -1,18 +1,1 @@
-$ curl -svo /dev/null https://d4w.netlify.app/  2>&1 | egrep '^(\* Connected|(<|>) )'
-* Connected to d4w.netlify.app (167.172.215.127) port 443 (#0)
-> GET / HTTP/2
-> Host: d4w.netlify.app
-> User-Agent: curl/7.64.1
-> Accept: */*
->
-< HTTP/2 200
-< cache-control: public, max-age=0, must-revalidate
-< content-type: text/html; charset=UTF-8
-< date: Mon, 05 Oct 2020 23:40:58 GMT
-< etag: "c00dabd5e4aaeeda89c481121447d7de-ssl"
-< link: <https://www.devs4web.com/>; rel="canonical"
-< strict-transport-security: max-age=31536000; includeSubDomains; preload
-< age: 0
-< server: Netlify
-< x-nf-request-id: 3440924b-ca2e-42bc-81ec-cf3401bc6eb0-1557898
-<
+
